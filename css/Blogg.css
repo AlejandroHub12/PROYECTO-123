@@ -1,0 +1,102 @@
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 70px;
+    background-color: #a440bd;
+    padding: 0px 100px;
+    display: flex;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color: pink;
+    text-decoration: none;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+Main{
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    margin-top: 45px;
+}
+
+article{
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 50px;
+    background-color: white;
+}
+
+.header-content{
+    text-align: center;
+}
+
+
+.capa{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: white;
+    opacity: 0.1;
+}
+
+.parrafo{
+    z-index: 1;
+}
+
+.fotodona{
+    width: 350px;
+    align-items: center;
+}
+
+.foto{
+    width: 350px;
+    align-items: center;
+}
+
+p{
+    font-size: 30px;
+}
+
+.parrafo img{
+    width: 320px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+}

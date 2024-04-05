@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class= "fondo">
+        <div class= "home">
+            <a href="index.html" target= "_self" rel= "noopener noreferrer">
+                <i class= "ti ti-door" id= "inicio"></i>
+            </a>
+        </div>
+        <div class= "contenedor">
+            <form action="../include/ingresarR.php" metho= "POST"></form>
+           <div class= formulario>
+            <select name="Tipo_persona" id="Tipo_persona" class= "input-select">
+                <option value="Persona_natural">Persona_natural</option>
+            </select><br>
+
+            <input type="text" name="Documento" id="Documento" class="input" required>
+            <label for="Documento" class="input-label">Documento</label><br>
+
+            <input type="text" name="Nombres" id="Nombres" class="input" required>
+            <label for="Nombres" class="input-label">Nombres</label><br>
+
+            <input type="text" name="Apellido1" id="Apellido1" class="input" required>
+            <label for="Apellido1" class="input-label">Primer apellido</label><br>
+
+            <input type="text" name="Apellido2" id="Apellido2" class="input" required>
+            <label for="Apellido2" class="input-label">Segundo apellido</label><br>
+
+            <input type="text" name="Telefono" id="Telefono" class="input" required>
+            <label for="Telefono" class="input-label">Telefono</label><br>
+
+            <input type="text" name="Correo" id="Correo" class="input" required>
+            <label for="Correo" class="input-label">Correo</label><br>
+
+            <input type="text" name="Ocupacion" id="Ocupacion" class="input" required>
+            <label for="Ocupacion" class="input-label">Ocupación</label><br>
+
+            <input type="text" name="Ingreso_ec" id="Ingreso_ec" class="input" required>
+            <label for="Ingreso_ec" class="input-label">Ingreso económico</label><br>
+
+            <input type="text" name="Direccion" id="Direccion" class="input" required>
+            <label for="Direccion" class="input-label">Dirección</label><br>
+           </div> 
+        </div>
+    </div>
+</body>
+</html>

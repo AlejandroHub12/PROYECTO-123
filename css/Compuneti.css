@@ -1,0 +1,78 @@
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 70px;
+    background-color: #a440bd;
+    padding: 0px 100px;
+    display: flex;
+    text-decoration: none;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color: pink;
+    text-decoration: none;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+main{
+    background: #f0f0f0;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+article{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 20px;
+    background: white;
+    font-size: 25px;
+}
+
+img {
+    width: 120px;
+    background-position: relative;
+    width: 12%;
+    height: 100px;
+    padding: 0px 20px;
+    max-width: 500px;
+    margin: auto;
+    height: 100%;
+    display: inline-block;
+}
